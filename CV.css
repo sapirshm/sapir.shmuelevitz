@@ -11,12 +11,15 @@ body{
     display: grid;
     grid-template-areas: 
     'header header header'
-    'left main main'
-    'left main main';
+    'left main right'
+    'left main right';
 }
 div{ 
     border:2px solid black
     
+}
+#piglet{
+    grid-area: right;
 }
 
 #item1 {

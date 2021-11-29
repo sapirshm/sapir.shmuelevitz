@@ -1,0 +1,48 @@
+:root{
+    --darkBlue: #242583;
+    --eggplant:#553d67;
+    --pink:#f64c72;
+    --makeUp: #99738e;
+
+}
+
+body { 
+   background-color: var(--darkBlue);
+   color: var(--pink);
+    font-family: sans-serif;
+}
+
+label{ 
+    color:blue;
+    padding: 10px;
+    margin:10px;
+}
+input{
+    padding: 10px;
+    margin:10px;
+}
+textarea {
+    padding: 10px;
+    margin:10px;
+}
+#signinheader{
+    font-family: sans-serif;
+    padding: 10px;
+    margin:10px;
+}
+
+.Buxa{
+
+    background-color:var(--makeUp);
+    border: 2px solid white
+}
+
+input.Buxa{
+    background-color: lightgray;
+}
+ @media only screen and (max-width:600px)
+ {
+     body{
+         background-color: var(--makeUp);
+     }
+ }
